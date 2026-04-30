@@ -70,7 +70,7 @@ export default function LoginPage() {
           {/* Sign In Button */}
           <button
             onClick={handleLogin}
-            className="w-full py-3 bg-blue-600 hover:bg-blue-700 active:scale-[0.99] text-white font-semibold rounded-lg text-sm tracking-wide shadow-md hover:shadow-lg transition-all duration-200"
+            className="cursor-pointer w-full py-3 bg-blue-600 hover:bg-blue-700 active:scale-[0.99] text-white font-semibold rounded-lg text-sm tracking-wide shadow-md hover:shadow-lg transition-all duration-200"
           >
             Sign in
           </button>
