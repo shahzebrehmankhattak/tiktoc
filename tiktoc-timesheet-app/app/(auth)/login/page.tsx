@@ -83,7 +83,7 @@ export default function LoginPage() {
         <div className="absolute w-80 h-80 bg-white/5 rounded-full -top-20 -right-20 pointer-events-none" />
         <div className="absolute w-52 h-52 bg-white/5 rounded-full -bottom-10 -left-10 pointer-events-none" />
 
-        <div className="relative z-10 max-w-sm">
+        <div className="relative z-10 max-w-sm md:top-20 lg:top-40">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 tracking-tight">
             ticktock
           </h2>
