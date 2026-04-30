@@ -1,10 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Timesheet Dashboard
 
-## Getting Started
+This is a **Next.js** project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+It is a **Timesheet Dashboard application** with filtering, pagination, and CRUD-style UI for managing weekly timesheet entries.
+
+---
+
+## 🚀 Getting Started
+
+First, install dependencies:
+
+```bash
+npm install
+
 
 First, run the development server:
 
-```bash
 npm run dev
 # or
 yarn dev
@@ -12,25 +23,47 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+##Project Structure
+app/ → Next.js App Router pages
+components/ → Reusable UI components (tables, modals, etc.)
+hooks/ → Custom React Query hooks
+provider/ → React Query provider setup
+styles/ → Global CSS (Tailwind / PostCSS)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+##Frameworks & Libraries Used
+Next.js (App Router)
+React
+TypeScript
+Tailwind CSS
+React Query (@tanstack/react-query)
+Lucide React (icons)
+Next Font Optimization (Inter)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+##Features
+Timesheet listing with pagination
+Date range filtering
+Status filtering (Completed / Incomplete / Missing)
+Reusable table component structure
+Modal for Add/Edit entries
+Loading spinner using Lucide icons
+API integration using React Query
+Client-side routing with Next.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+##Time Spent
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+UI & Layout: ~2–3 hours
+Table & Filtering logic: ~2–3 hours
+API integration & React Query: ~2–3 hours
+Debugging & TypeScript fixes: ~3–4 hours
+Refactoring reusable components: ~2 hours
 
-## Deploy on Vercel
+##Github
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+##Deploy ercel:
+
+https://vercel.com/new
