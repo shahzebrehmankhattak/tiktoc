@@ -63,7 +63,8 @@ Refactoring reusable components: ~2 hours
 
 ##Github
 
+https://github.com/shahzebrehmankhattak/tiktoc
 
 ##Deploy ercel:
 
-https://vercel.com/new
+https://tiktoc-abdn.vercel.app/login
