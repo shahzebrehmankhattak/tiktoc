@@ -15,8 +15,6 @@ export default function LoginPage() {
       redirect: true,
       callbackUrl: "/dashboard",
     });
-
-    console.log(res);
   };
 
  return (
